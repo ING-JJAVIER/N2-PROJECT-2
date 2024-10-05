@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes border-animation {
+    0% {
+        border-color: #c200d4; /* Color inicial del borde */
+    }
+    50% {
+        border-color: #7e08ad; /* Color intermedio */
+    }
+    100% {
+        border-color: #006dd4; /* Color final del borde */
+    }
+}
+
+.border-animated {
+    animation: border-animation 1s infinite;
+}
